@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library Membership Application Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" method="get">
+            <div class="input-box">
+                <label>First and Last Name (Thai) </label>
+                <input type="text" placeholder="First and Last Name" required>
+            </div>
+            <div class="input-box">
+                <label>First and Last Name (English) </label>
+                <input type="text" placeholder="First and Last Name" required>
+            </div>
+            <div class="input-box">
+                <label>Phone Number </label>
+                <input type="text" placeholder="Enter your phone number" required>
+            </div>
+            <div class="input-box">
+                <label>Gender</label>
+                <input type="text" placeholder="Gender" required>
+            </div>
+            <div class="input-box">
+                <label>Student ID </label>
+                <input type="text" placeholder="Student ID" required>
+            </div>
+            <div class="input-box">
+                <label>Department </label>
+                <input type="text" placeholder="Department" required>
+            </div>
+            <div class="input-box">
+                <label>Date of Birth </label>
+                <input type="date" placeholder="Enter date of birth" required>
+            </div>
+            <div class="input-box">
+                <label>Email </label>
+                <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+                <label>Types of Books Interested In:</label><br>
+                <input type="checkbox" id="fiction" name="book_types[]" value="Fiction">
+                <label for="fiction">Fiction</label><br>
+
+                <input type="checkbox" id="nonfiction" name="book_types[]" value="Non-Fiction">
+                <label for="nonfiction">Non-Fiction</label><br>
+
+                <input type="checkbox" id="mystery" name="book_types[]" value="Mystery">
+                <label for="mystery">Mystery</label><br>
+
+                <input type="checkbox" id="science-fiction" name="book_types[]" value="Science Fiction">
+                <label for="science-fiction">Science Fiction</label><br>
+
+                <input type="checkbox" id="fantasy" name="book_types[]" value="Fantasy">
+                <label for="fantasy">Fantasy</label><br>
+
+                <input type="checkbox" id="biography" name="book_types[]" value="Biography">
+                <label for="biography">Biography</label><br>
+
+                <input type="checkbox" id="history" name="book_types[]" value="History">
+                <label for="history">History</label><br>
+
+                <input type="checkbox" id="self-help" name="book_types[]" value="Self-Help">
+                <label for="self-help">Self-Help</label><br>
+            </div>
+            <br>
+            <div class="input-box">
+                <label><input type="checkbox">Would you like to recieve emails about library news, special events and activities </label>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
